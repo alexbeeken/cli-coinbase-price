@@ -12,7 +12,6 @@ client = Coinbase::Wallet::Client.new(
 )
 
 while true do
-  hash = Price.get(client)
-  puts Report.from_hash(hash)
+  Report.from_hash(Price.get(client))
   sleep 2
 end

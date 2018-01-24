@@ -7,6 +7,6 @@ class Report
     currencies.each do |pair|
       report.concat formatter.call(pair[0])
     end
-    report % currencies
+    puts report % currencies
   end
 end

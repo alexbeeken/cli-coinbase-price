@@ -1,4 +1,8 @@
+# Coinbase API Price Ticker
+
 This is a simple script for trading bitcoin and other currencies from coinbase.
+
+## Setup
 
 In order to use you'll need a coinbase account and API keys. Coinbase has (at the moment) disabled sandbox data so you'll have to sign up and wait 48 hours to begin working with real data.
 
